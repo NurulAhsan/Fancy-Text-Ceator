@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51BB345222E6059F0026AF8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB345122E6059F0026AF8A /* AppDelegate.swift */; };
+		51BB345422E6059F0026AF8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB345322E6059F0026AF8A /* ViewController.swift */; };
+		51BB345722E6059F0026AF8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BB345522E6059F0026AF8A /* Main.storyboard */; };
+		51BB345922E6059F0026AF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BB345822E6059F0026AF8A /* Assets.xcassets */; };
+		51BB345C22E6059F0026AF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BB345A22E6059F0026AF8A /* LaunchScreen.storyboard */; };
+		51BB346722E6059F0026AF8A /* Fancy_Text_CeatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB346622E6059F0026AF8A /* Fancy_Text_CeatorTests.swift */; };
+		51BB347222E6059F0026AF8A /* Fancy_Text_CeatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB347122E6059F0026AF8A /* Fancy_Text_CeatorUITests.swift */; };
+		51BB348322E605B30026AF8A /* Moon Flower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51BB347F22E605B20026AF8A /* Moon Flower.ttf */; };
+		51BB348422E605B30026AF8A /* LemonMilk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51BB348022E605B20026AF8A /* LemonMilk.otf */; };
+		51BB348522E605B30026AF8A /* SugarstyleMillenial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51BB348122E605B20026AF8A /* SugarstyleMillenial-Regular.ttf */; };
+		51BB348622E605B30026AF8A /* Blacksword.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51BB348222E605B30026AF8A /* Blacksword.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51BB346322E6059F0026AF8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51BB344622E6059E0026AF8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BB344D22E6059F0026AF8A;
+			remoteInfo = "Fancy Text Ceator";
+		};
+		51BB346E22E6059F0026AF8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51BB344622E6059E0026AF8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BB344D22E6059F0026AF8A;
+			remoteInfo = "Fancy Text Ceator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51BB344E22E6059F0026AF8A /* Fancy Text Ceator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fancy Text Ceator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BB345122E6059F0026AF8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51BB345322E6059F0026AF8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51BB345622E6059F0026AF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51BB345822E6059F0026AF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51BB345B22E6059F0026AF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51BB345D22E6059F0026AF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BB346222E6059F0026AF8A /* Fancy Text CeatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fancy Text CeatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BB346622E6059F0026AF8A /* Fancy_Text_CeatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fancy_Text_CeatorTests.swift; sourceTree = "<group>"; };
+		51BB346822E6059F0026AF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BB346D22E6059F0026AF8A /* Fancy Text CeatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fancy Text CeatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BB347122E6059F0026AF8A /* Fancy_Text_CeatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fancy_Text_CeatorUITests.swift; sourceTree = "<group>"; };
+		51BB347322E6059F0026AF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BB347F22E605B20026AF8A /* Moon Flower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Moon Flower.ttf"; sourceTree = "<group>"; };
+		51BB348022E605B20026AF8A /* LemonMilk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LemonMilk.otf; sourceTree = "<group>"; };
+		51BB348122E605B20026AF8A /* SugarstyleMillenial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SugarstyleMillenial-Regular.ttf"; sourceTree = "<group>"; };
+		51BB348222E605B30026AF8A /* Blacksword.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blacksword.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51BB344B22E6059F0026AF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BB345F22E6059F0026AF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BB346A22E6059F0026AF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51BB344522E6059E0026AF8A = {
+			isa = PBXGroup;
+			children = (
+				51BB345022E6059F0026AF8A /* Fancy Text Ceator */,
+				51BB346522E6059F0026AF8A /* Fancy Text CeatorTests */,
+				51BB347022E6059F0026AF8A /* Fancy Text CeatorUITests */,
+				51BB344F22E6059F0026AF8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51BB344F22E6059F0026AF8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51BB344E22E6059F0026AF8A /* Fancy Text Ceator.app */,
+				51BB346222E6059F0026AF8A /* Fancy Text CeatorTests.xctest */,
+				51BB346D22E6059F0026AF8A /* Fancy Text CeatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51BB345022E6059F0026AF8A /* Fancy Text Ceator */ = {
+			isa = PBXGroup;
+			children = (
+				51BB345122E6059F0026AF8A /* AppDelegate.swift */,
+				51BB345322E6059F0026AF8A /* ViewController.swift */,
+				51BB345522E6059F0026AF8A /* Main.storyboard */,
+				51BB345822E6059F0026AF8A /* Assets.xcassets */,
+				51BB345A22E6059F0026AF8A /* LaunchScreen.storyboard */,
+				51BB345D22E6059F0026AF8A /* Info.plist */,
+				51BB348222E605B30026AF8A /* Blacksword.otf */,
+				51BB348022E605B20026AF8A /* LemonMilk.otf */,
+				51BB347F22E605B20026AF8A /* Moon Flower.ttf */,
+				51BB348122E605B20026AF8A /* SugarstyleMillenial-Regular.ttf */,
+			);
+			path = "Fancy Text Ceator";
+			sourceTree = "<group>";
+		};
+		51BB346522E6059F0026AF8A /* Fancy Text CeatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				51BB346622E6059F0026AF8A /* Fancy_Text_CeatorTests.swift */,
+				51BB346822E6059F0026AF8A /* Info.plist */,
+			);
+			path = "Fancy Text CeatorTests";
+			sourceTree = "<group>";
+		};
+		51BB347022E6059F0026AF8A /* Fancy Text CeatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51BB347122E6059F0026AF8A /* Fancy_Text_CeatorUITests.swift */,
+				51BB347322E6059F0026AF8A /* Info.plist */,
+			);
+			path = "Fancy Text CeatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51BB344D22E6059F0026AF8A /* Fancy Text Ceator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BB347622E6059F0026AF8A /* Build configuration list for PBXNativeTarget "Fancy Text Ceator" */;
+			buildPhases = (
+				51BB344A22E6059F0026AF8A /* Sources */,
+				51BB344B22E6059F0026AF8A /* Frameworks */,
+				51BB344C22E6059F0026AF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fancy Text Ceator";
+			productName = "Fancy Text Ceator";
+			productReference = 51BB344E22E6059F0026AF8A /* Fancy Text Ceator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51BB346122E6059F0026AF8A /* Fancy Text CeatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BB347922E6059F0026AF8A /* Build configuration list for PBXNativeTarget "Fancy Text CeatorTests" */;
+			buildPhases = (
+				51BB345E22E6059F0026AF8A /* Sources */,
+				51BB345F22E6059F0026AF8A /* Frameworks */,
+				51BB346022E6059F0026AF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BB346422E6059F0026AF8A /* PBXTargetDependency */,
+			);
+			name = "Fancy Text CeatorTests";
+			productName = "Fancy Text CeatorTests";
+			productReference = 51BB346222E6059F0026AF8A /* Fancy Text CeatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51BB346C22E6059F0026AF8A /* Fancy Text CeatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BB347C22E6059F0026AF8A /* Build configuration list for PBXNativeTarget "Fancy Text CeatorUITests" */;
+			buildPhases = (
+				51BB346922E6059F0026AF8A /* Sources */,
+				51BB346A22E6059F0026AF8A /* Frameworks */,
+				51BB346B22E6059F0026AF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BB346F22E6059F0026AF8A /* PBXTargetDependency */,
+			);
+			name = "Fancy Text CeatorUITests";
+			productName = "Fancy Text CeatorUITests";
+			productReference = 51BB346D22E6059F0026AF8A /* Fancy Text CeatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51BB344622E6059E0026AF8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Nurul Ahsan";
+				TargetAttributes = {
+					51BB344D22E6059F0026AF8A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					51BB346122E6059F0026AF8A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 51BB344D22E6059F0026AF8A;
+					};
+					51BB346C22E6059F0026AF8A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 51BB344D22E6059F0026AF8A;
+					};
+				};
+			};
+			buildConfigurationList = 51BB344922E6059E0026AF8A /* Build configuration list for PBXProject "Fancy Text Ceator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51BB344522E6059E0026AF8A;
+			productRefGroup = 51BB344F22E6059F0026AF8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51BB344D22E6059F0026AF8A /* Fancy Text Ceator */,
+				51BB346122E6059F0026AF8A /* Fancy Text CeatorTests */,
+				51BB346C22E6059F0026AF8A /* Fancy Text CeatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51BB344C22E6059F0026AF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BB348622E605B30026AF8A /* Blacksword.otf in Resources */,
+				51BB348522E605B30026AF8A /* SugarstyleMillenial-Regular.ttf in Resources */,
+				51BB345C22E6059F0026AF8A /* LaunchScreen.storyboard in Resources */,
+				51BB345922E6059F0026AF8A /* Assets.xcassets in Resources */,
+				51BB345722E6059F0026AF8A /* Main.storyboard in Resources */,
+				51BB348422E605B30026AF8A /* LemonMilk.otf in Resources */,
+				51BB348322E605B30026AF8A /* Moon Flower.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BB346022E6059F0026AF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BB346B22E6059F0026AF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51BB344A22E6059F0026AF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BB345422E6059F0026AF8A /* ViewController.swift in Sources */,
+				51BB345222E6059F0026AF8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BB345E22E6059F0026AF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BB346722E6059F0026AF8A /* Fancy_Text_CeatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BB346922E6059F0026AF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BB347222E6059F0026AF8A /* Fancy_Text_CeatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51BB346422E6059F0026AF8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51BB344D22E6059F0026AF8A /* Fancy Text Ceator */;
+			targetProxy = 51BB346322E6059F0026AF8A /* PBXContainerItemProxy */;
+		};
+		51BB346F22E6059F0026AF8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51BB344D22E6059F0026AF8A /* Fancy Text Ceator */;
+			targetProxy = 51BB346E22E6059F0026AF8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51BB345522E6059F0026AF8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BB345622E6059F0026AF8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51BB345A22E6059F0026AF8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BB345B22E6059F0026AF8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51BB347422E6059F0026AF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51BB347522E6059F0026AF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51BB347722E6059F0026AF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK2FWW389T;
+				INFOPLIST_FILE = "Fancy Text Ceator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurul-ahsan.Fancy-Text-Ceator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51BB347822E6059F0026AF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK2FWW389T;
+				INFOPLIST_FILE = "Fancy Text Ceator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurul-ahsan.Fancy-Text-Ceator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51BB347A22E6059F0026AF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK2FWW389T;
+				INFOPLIST_FILE = "Fancy Text CeatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurul-ahsan.Fancy-Text-CeatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fancy Text Ceator.app/Fancy Text Ceator";
+			};
+			name = Debug;
+		};
+		51BB347B22E6059F0026AF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK2FWW389T;
+				INFOPLIST_FILE = "Fancy Text CeatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurul-ahsan.Fancy-Text-CeatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fancy Text Ceator.app/Fancy Text Ceator";
+			};
+			name = Release;
+		};
+		51BB347D22E6059F0026AF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK2FWW389T;
+				INFOPLIST_FILE = "Fancy Text CeatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurul-ahsan.Fancy-Text-CeatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fancy Text Ceator";
+			};
+			name = Debug;
+		};
+		51BB347E22E6059F0026AF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK2FWW389T;
+				INFOPLIST_FILE = "Fancy Text CeatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nurul-ahsan.Fancy-Text-CeatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fancy Text Ceator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51BB344922E6059E0026AF8A /* Build configuration list for PBXProject "Fancy Text Ceator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BB347422E6059F0026AF8A /* Debug */,
+				51BB347522E6059F0026AF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BB347622E6059F0026AF8A /* Build configuration list for PBXNativeTarget "Fancy Text Ceator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BB347722E6059F0026AF8A /* Debug */,
+				51BB347822E6059F0026AF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BB347922E6059F0026AF8A /* Build configuration list for PBXNativeTarget "Fancy Text CeatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BB347A22E6059F0026AF8A /* Debug */,
+				51BB347B22E6059F0026AF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BB347C22E6059F0026AF8A /* Build configuration list for PBXNativeTarget "Fancy Text CeatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BB347D22E6059F0026AF8A /* Debug */,
+				51BB347E22E6059F0026AF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51BB344622E6059E0026AF8A /* Project object */;
+}
