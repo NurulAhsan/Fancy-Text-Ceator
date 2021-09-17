@@ -1,1 +1,1 @@
-# Fancy-Text-Ceator
+# Fancy-Text-Creator
